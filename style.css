@@ -32,7 +32,7 @@ nav a:hover {
     text-decoration: underline;
 } 
 .produtos {
-    width: 940px;
+    width: 930px;
     margin: 0 auto;
     padding: 50px 50px;
 }
@@ -58,7 +58,7 @@ nav a:hover {
 }
 
 .produtos h2 {
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
 }
 .produto-descricao {
@@ -225,16 +225,12 @@ td, th {
     margin: 2em auto;
 }
 
-.contato-barbearia, .tabela {
-    width: auto;
-    margin: 0.5%;
-}
-
 @media screen and (max-width: 480px) {
-    .caixa, .principal, .conteudo-beneficios, 
+     .caixa, .principal, .conteudo-beneficios, 
     .mapa-conteudo, .video, .produtos {
         width: auto;        
     }
+
     h1, .tabela {
         text-align: center;
     }
@@ -242,13 +238,17 @@ td, th {
         position: static;
     }
     
-    .lista-beneficios, .imagem-beneficios, .produtos li, .tabela, .enviar {
+    .lista-beneficios, .imagem-beneficios, .produtos li,
+     .imagem-produto, .tabela, .enviar {
         width: 100%;
     }
 
-    .input-padrao {
-        width: 88%;
+    .input-padrao{
+        width: 87%;
+        margin-left: 0.5%;
     }
 
-
+    nav a {
+        font-size: 21px;
+    }
 }
