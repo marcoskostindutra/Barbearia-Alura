@@ -225,6 +225,11 @@ td, th {
     margin: 2em auto;
 }
 
+.contato-barbearia, .tabela {
+    width: auto;
+    margin: 0.5%;
+}
+
 @media screen and (max-width: 480px) {
     .caixa, .principal, .conteudo-beneficios, 
     .mapa-conteudo, .video, .produtos {
